@@ -1,0 +1,25 @@
+body{
+  height:;
+  font-family: 'Courgette', cursive;
+  font-family: 'Gelasio', serif;
+  }
+
+.navbar{
+    box-shadow: 0px 15px 8px -6px rgba(0,0,0,.5);
+    }
+
+.selfie{
+      height: 200px;
+      width: 200px;
+      box-shadow: 0px 20px 8px -6px rgba(0,0,0,.5);
+    }
+
+.Heroname h1{
+      font-family: 'Courgette', cursive;
+    
+    }
+   
+   
+*, ::after, ::before {
+      box-sizing: border-box;
+  }
