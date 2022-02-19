@@ -12,9 +12,10 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 <!-- Google FONTS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gelasio&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
 
 <!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/2339a5cf78.js" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2339a5cf78.js" crossorigin="anonymous"></script>
 
 <!-- Stylesheet CSS link -->
@@ -28,72 +29,97 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 </head>
 
 <body>
-    
-    <body class=" text-dark bg-transparent h-100% body "></body></div>
+    <!-- NO print div start -->
+<div class="noprint">
+
+
+
     
 
+  <div class="container-fluid con2">
     <!-- Sticky navbar with Offcanvas body -->
-    <nav class="navbar sticky-top d-flex navbar-dark bg-dark fixed-top  ">
+        <div class="row">
+          <nav class="navbar sticky-top d-flex navbar-dark bg-dark fixed-top">
     
-        <div class="container-fluid ms-lg-4">
-          <img src="img\Logosinglecopy.png" class="d-block w-5" style="height:60px" alt="">
-          <a class="navbar-brand justify" href="#"></a>
-        
-          <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h1>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Gallery
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                    <li><a class="dropdown-item" href="#">Graphic Design Projects</a></li>
-                    <li><a class="dropdown-item" href="#">Website Design</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
+            <div class="container-fluid ms-lg-4">
+              <img src="img\Logosinglecopy.png" class="d-block w-5" style="height:60px" alt="">
+              <a class="navbar-brand justify" href="#"></a>
+            
+              <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h1 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h1>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link menutext" aria-current="page" href="index.html" style="font-size: 22px;">Home</a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Contact Me <Menu></Menu></a></li>
+                    <li class="nav-item mt-3">
+                      <a class="nav-link active text-light menutext" href="about.html" style="font-size: 22px;">About</a>
+                    </li>
+                  
+                    <li class="nav-item mt-3 dropdown">
+                      <a class="nav-link dropdown-toggle menutext" href="gallery.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 22px;">
+                        Gallery
+                      </a>
+                      <ul class="dropdown-menu menutext" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="gallery.html">Graphic Art Designs</a></li>
+                        <li><a class="dropdown-item" href="gallery.html">Contact Me</a></li></ul>
+                        
+                        
+                          
                   </ul>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+                  <form class="d-flex">
+                    <input class="form-control mt-3 me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
             </div>
+          </nav>
+        </div>
+      <!-- Sticky navbar with Offcanvas body END -->
+    </div> 
+      
+
+
+
+    
+       
+ </div> 
+ <!-- No print Div above END -->
+
+  
+<!-- NO print div start -->
+<div class="noprint">
+
+
+<!-- Header with Profile picture and summary -->
+      <div class="row hero">
+        <div class="col .row {
+          /* --bs-gutter-x: 1.5rem;">
+          <div class="container text-center text-white mt-5">
+            <video id="bgvid" autoplay muted loop>
+              <source src="videos\pexels video.mp4" type="video/mp4" ></video>
+
+            <img class="rounded-circle selfie mt-5" src="img\D2479902-A194-4B0E-B29A-07BE53B7A4B3 (1).jpeg" alt="Profile Photo" />
+
+            <h1 class="mt-5 headertext1">About Me</h1>
+            <h1 class="mt-5 h1" style="font-size: 85px;">Jacqueline Martinez</h1>
+            
+            
+
           </div>
         </div>
-      </nav>
-      <!-- Sticky navbar with Offcanvas body END -->
-  
-<!-- Header with Profile picture and summary -->
-      <header class="bg-secondary bg-gradient text-white py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3 text-left text-md-center mb-3">
-             <img class="rounded-circle selfie" src="img\D2479902-A194-4B0E-B29A-07BE53B7A4B3 (1).jpeg" alt="Profile Photo" />
-            </div>
-            <div class="col-md-9 font-courgete Heroname">
-              <h1>Jacqueline Martinez</h1>
-              <h5 class="pb-3 pt-2">Graphic Designer</h5>
-              <p class="border-top pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio lacus, sollicitudin in dolor at, consequat volutpat ante. Integer quis consequat turpis, quis porta orci. Proin tincidunt volutpat faucibus. Suspendisse ac nisl purus suspendisse eleifend interdum orci non pharetra. </p>
-            </div>       
-          </div>        
-        </div>
-      </header>
+      </div>
+<!-- NO print Div above END -->
+
+</div> 
+<!-- No print Div above END --> 
 
       <!-- Small gray navbar with email, website and phone number  -->
       <nav class="bg-dark text-white-50 mb-5">
@@ -109,12 +135,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
               <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-globe" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4H2.255a7.025 7.025 0 0 1 3.072-2.472 6.7 6.7 0 0 0-.597.933c-.247.464-.462.98-.64 1.539zm-.582 3.5h-2.49c.062-.89.291-1.733.656-2.5H3.82a13.652 13.652 0 0 0-.312 2.5zM4.847 5H7.5v2.5H4.51A12.5 12.5 0 0 1 4.846 5zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5H7.5V11H4.847a12.5 12.5 0 0 1-.338-2.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12H7.5v2.923c-.67-.204-1.335-.82-1.887-1.855A7.97 7.97 0 0 1 5.145 12zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11H1.674a6.958 6.958 0 0 1-.656-2.5h2.49c.03.877.138 1.718.312 2.5zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12h2.355a7.967 7.967 0 0 1-.468 1.068c-.552 1.035-1.218 1.65-1.887 1.855V12zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5h-2.49A13.65 13.65 0 0 0 12.18 5h2.146c.365.767.594 1.61.656 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
               </svg>
-              <a href="#" class="text-white ml-2">www.lauracollins.com</a>
-            </div>       
-            <div class="col-md text-md-right">
-              <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
-              </svg>
+             
               <a href="#" class="text-white ml-2">+12 3456 7890</a>
             </div>       
           </div>
@@ -124,189 +145,284 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 
 
 
-      <div class="container">
+    <div class="container">
 
-        <div class="section-title">
-          <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <div class="section-title pb-4 border-bottom border-dark resumetext">
+          <h1><b>Resume</b></h1>
+          <p>I am a bilingual (English/Spanish) Fresno State Alumni. I consider myself to be a creative and hard working person. I learn fast and Enjoy making things with my own two hands; drawing, painting, wood shop, designs. I aspire to be a business owner by either creating my own product or getting into the Tech industry while still helping others.</p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
-            <div class="resume-item pb-0">
-              <h4>Alice Barkley</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <p>
-              </p><ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
+            <h3 class="resume-title pt-5"><b>Education</b></h3>
+            <div class="resume-item pt-3">
+              <h4>Bachelor of Science in Business Administration - Marketing Option</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>California State University, Fresno - California</em></p>
               <p></p>
             </div>
-
-            <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-            </div>
-            <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+            <div class="resume-item pt-4 ">
+              <h4>Associates Degree in Business Administration for Transfer (AST)</h4>
               <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <p><em>West Hills College, Lemoore - California</em></p>
+              <p class="pb-4 border-bottom border-dark"></p>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+          
+          <div class="col-lg-5 pt-5">
+            <h3 class="resume-title"><b>Professional Experience</b></h3>
+            <div class="resume-item pt-4">
+              <h4>Graphic Designer &amp; Sales Manager</h4>
+              <h5>2019 - 2021</h5>
+              <p><em>Sanger, CA </em></p>
               <p>
               </p><ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Managed the Sanger office location by performing administrative tasks related to sales and graphic design.</li>
+                <li>Office tasks included: scheduling and designing with customers, following and executing sales leads, maintaining computer and physical filling systems, processing payments and clerical duties.</li>
+                <li>Comparing and negotiating vendor prices for optimal savings.</li>
+                <li>Handling 20-50 calls per day to address customer inquiries and concerns.</li>
+                <li>Marketing tasks include: re-designing the compnay website to create a customer interest and increasing yearly sales.</li>
+                <li>Using critical thinking to break down problems, evaluate solutions and make decisions.</li>
               </ul>
               <p></p>
             </div>
-            <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+            <div class="resume-item pt-4">
+              <h4>Administrative Assistant and Marketing</h4>
+              <h5>2018 - 2019</h5>
+              <p><em>California State University, Fresno</em></p>
               <p>
               </p><ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Worked with vendors negotiating prices and designs along with other retail needs.</li>
+                <li>Continually sought methods for improving daily operations, communications with clients, record keeping and transactions for increased efficiency.</li>
+                <li>Worked on social media: giveaways and raffles to increase sales and awareness.</li>
+                <li>Designed posters, flyers and merchandise to reach customer awareness.</li>
               </ul>
+              <div class="resume-item pt-4">
+                <h4>Marketing Coordinator</h4>
+                <h5>2018 - 2019</h5>
+                <p><em>California State University, Fresno</em></p>
+                <p>
+                </p><ul>
+                  <li>Organized logistics for marketing and proposal strategy meetings.</li>
+                  <li>Met with managers and city council members to set up fundraiser contracts and an events booth.</li>
+                  <li>Orchestrated, executed and monitored new material to boost brand awareness, volunteers, and profitability.</li>
+                </ul>
+                <div class="resume-item pt-4">
+                    <h4>Payroll Assistant</h4>
+                    <h5>2018 - 2018</h5>
+                    <p><em>Style Farm Management Lemoore, CA</em></p>
+                    <p>
+                    </p><ul>
+                      <li>Answered phone calls, made copies, sent scans and emails.</li>
+                      <li>Maintained contact with Agriculture companies with whom we managed payroll for their workers.</li>
+                      <li>Received invoices and made and distributed paychecks.</li>
+                    </ul>
+                    <div class="resume-item pt-4">
+                        <h4>Cashier &AMP; Waitress</h4>
+                        <h5>2015 - 2016</h5>
+                        <p><em>Style Farm Management Lemoore, CA</em></p>
+                        <p>
+                        </p><ul>
+                          <li>Leading cashier; opened and closed out Hanford, CA and Visalia, CA locations.</li>
+                          <li>Counted and balanced end-of-day cash and credit sales.</li>
+                          <li>Greeted customers, answered phone calls, took orders and packaged to-go orders.</li>
+                        </ul>
               <p></p>
             </div>
           </div>
         </div>
+    </div>
 
       </div>
 <!-- Print FORM -->
-      <div class="col-md-6"><a href="#" onclick="window.print()" value="Print Form" class="hoverNoLine"><button class="btn btn-primary btn-block"><em class="fa fa-print"></em>&nbsp;Print Form</button></a></div>
+      <div class="text-center pt-5 pb-5"><a href="#" onclick="window.print()" value="Print Form" class="hoverNoLine"><button class="btn btn-primary btn-block"><em class="fa fa-print"></em>&nbsp;Print Form</button></a></div>
     </div>
     </div>
 <!-- Print FORM -->
 
 
-<!-- CONTAINERS containing info -->
-      <!-- <main class="container">
-        <div class="row">
-          <div class="col-md mb-5"> -->
-           <!-- work experience -->
-          <!-- </div>
-          <div class="col-md mb-5"> -->
-           <!-- education -->
-          <!-- </div>     
-        </div>    
-        <div class="row">
-          <div class="col-md mb-5"> -->
-            <!-- skills -->
-          <!-- </div>
-          <div class="col-md">     -->
-            <!-- recent work -->
-          <!-- </div>     
-        </div>
-      </main> -->
 
-      <!-- Work Experience Section -->
-      <!-- <h2 class="mb-5">Work Experience</h2>
-      <ul>
-        <li>
-          <h6 class="text-primary">Senior Web Developer / Digital Agency 2016-2020</h6>
-          <p>Phasellus et tellus iaculis, interdum augue vel, luctus nulla. Aenean viverra, magna a ultricies elementum, dui mi tristique ligula, non euismod leo mauris ac metus.</p>
-        </li>
-        <li>
-          <h6 class="text-primary">Web Developer / Big Firm 2010-2015</h6>
-          <p>Mauris volutpat, ex condimentum fringilla imperdiet, nulla turpis semper diam, ac semper risus urna quis libero. Fusce non nunc quam. Ut vulputate, magna eget molestie luctus, elit est posuere lorem, quis dapibus dolor felis id mi.</p>
-        </li>
-        <li>
-          <h6 class="text-primary">Junior Web Developer / Websites 'R' Us 2004-2009</h6>
-          <p>Sed eu turpis placerat, posuere odio a, viverra velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-        </li>
-      </ul> -->
 
-      <!-- Education Section -->
-      <!-- <h2 class="mb-5">Education</h2> 
-<ul>
-  <li>
-    <h6 class="text-primary">Computer Science / University Name 2001-2004</h6>
-    <p>Sed et ornare quam. Cras scelerisque ex ultricies neque sodales tristique. Phasellus mattis dui ut enim tincidunt auctor. Maecenas euismod, orci eget varius elementum, nunc massa dignissim sapien, ac sagittis libero dolor vitae elit.</p>
-  </li>
-  <li>
-    <h6 class="text-primary">Testville High School 1994-2000</h6>
-    <p>Aenean nisl enim, dictum in odio ut, suscipit efficitur diam. Nam nec velit a odio porta efficitur nec at magna.</p>
-  </li>
-</ul> -->
+<div class="noprint">
+
 
 <!-- Skills Section -->
-<h2 class="mb-5 ">Skills</h2>      
+<div class="row d-flex justify-content-center">
+  <div class="col-lg-4 col-offset-4 col-md-12">
+    <h2 class="ps-5 px-5 mt-5 mb-5 text-center border border-dark">Skills</h2>      
+  <div class="progress mb-4" style="height:25px; width: 500px;">
+    <div class="progress-bar bg-primary text-left " role="progressbar" style="width: 75%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">HTML</div>
+  </div>       
 <div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML</div>
-</div>       
-<div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 50%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">CSS</div>
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 60%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">CSS</div>
 </div> 
 <div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 87%" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 77%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Bootstrap 5</div>
 </div>       
 <div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">WordPress</div>
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 60%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Illustrator</div>
 </div>  
 <div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 78%" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Photoshop</div>
 </div>       
 <div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 77%" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">PHP</div>
+  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Adobe Lightroom</div>
 </div>
-<div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Linux</div>
-</div> 
-<div class="progress mb-4" style="height:25px; width: 500px;">
-  <div class="progress-bar bg-primary text-left pl-2" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">SEO</div>
+  </div>
 </div>
+    
+   
 
 <!-- Recent Work Section -->
-<h2 class="mb-5">Recent Work</h2> 
+<div class="row d-flex justify-content-center">
+  <div class="col-lg-4 col-offset-4 col-md-12">
+<h1 class=" text-center ps-3 px-5 mt-5 mb-5 text-center border border-dark text-align-middle">Recent Work</h1> 
 <div class="row">
-  <div class="col-md mb-3">
-    <a href="#">
-      <img class="img-fluid img-thumbnail" src="screenshot.png">
+  <div class="col-md mb-3 mt-5 text-center">
+    <a href="https://jacquelinemartinez6114.github.io/parallax-practice2/" target="_blank">
+      <img class="img-fluid img-thumbnail rounded-end" src="img\coketrip.JPG"> <p class="p-2 ms-4">Parallax Practice Example</p>
     </a>
+
   </div> 
-  <div class="col-md mb-3">
-    <a href="#">
-      <img class="img-fluid img-thumbnail" src="screenshot.png">
+  <div class="col-md mb-3 mt-5 text-center">
+    <a href="https://jacquelinemartinez6114.github.io/Final-Project/" target="_blank">
+      <img class="img-fluid img-thumbnail rounded-end" src="img\websitesforbeginnners.JPG"> <p class="p-2 ms-4">Websites For Beginners Example</p>
     </a>
+
   </div> 
 </div>
 <div class="row">
   <div class="col-mb-3">
-    <a href="#">
-      <img class="img-fluid img-thumbnail" src="screenshot.png">
+    <a href="">
+      
     </a>
   </div> 
   <div class="col-md mb-3">
     <a href="#">
-      <img class="img-fluid img-thumbnail" src="screenshot.png">
+      
     </a>
   </div> 
 </div> 
+</div>
 
 
-<footer class="bg-dark text-white-50 text-center mt-5 p-3">
-    &copy; 2020 Laura Collins - <a href="#" class="text-white-50">GitHub</a> | <a href="#" class="text-white-50">LinkedIn</a> | <a href="#" class="text-white-50">Twitter</a>
+
+
+
+
+  
+
+<div class="container containerfooter">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #233c5d">
+    <!-- Grid container -->
+    <div class="container">
+      <!-- Section: Links -->
+      <section class="mt-5 ">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5" style="background-color: #233c5d">
+          <!-- Grid column -->
+          <div class="col-md-2" >
+            <h6 class="text-uppercase font-weight-bold" >
+              <a href="#!" class="text-white">About us</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Products</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Awards</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Help</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Contact</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      
+
+ 
+
+      <!-- Section: Social -->
+      <section class="col-12 text-center mb-5 mt-5" style="background-color: #233c5d">
+        <a href="mailto:jacqueline.martinez6114@gmail.com" class="text-white me-4">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="text-white me-4" href="https://twitter.com/?lang=en" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="tel:559-382-6610" class="text-white me-4">
+          <i class="fas fa-headset"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="text-white me-4" href="https://www.linkedin.com/in/jacqueline-martinez-546208133/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a class="text-white me-4" href="https://github.com/jacquelinemartinez6114" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
   </footer>
+  <!-- Footer -->
+
+<!-- End of .container -->
+
+
+
+
+
+
+    </form>
+
+  </div>
+
+    </footer>
+
+
+
+
+</div>
+<!-- NO PRINT DIV ABOVE -->
 
 
    <!-- Optional JavaScript; choose one of the two! -->

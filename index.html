@@ -9,9 +9,9 @@
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Google FONTS -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gelasio&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
 
 <!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/2339a5cf78.js" crossorigin="anonymous"></script>
@@ -25,264 +25,192 @@
     
     <title>Document project 2</title>
 </head>
-<body class=" text-dark bg-transparent h-100% body "></body></div>
-    <!-- BACKGROUND STARS Parallax ANIMATION -->
-    <section class="container-fluid background">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-      <div id="title">
-          <!-- <span>PURE CSS</span>
-          <br>
-          <span>PARALLAX PIXEL BACKGROUND</span> -->
-      </div>
-  </section>
-<!-- BACKGROUND STARS Parallax ANIMATION END -->
-
+<body>
+  <div class="container-fluid con2">
     <!-- Sticky navbar with Offcanvas body -->
-    <nav class="navbar sticky-top d-flex navbar-dark bg-dark fixed-top  ">
+        <div class="row">
+          <nav class="navbar sticky-top d-flex navbar-dark bg-dark fixed-top">
     
-        <div class="container-fluid ms-lg-4">
-          <img src="img\Logosinglecopy.png" class="d-block w-5" style="height:60px" alt="">
-          <a class="navbar-brand justify" href="#"></a>
-        
-          <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Gallery
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                    <li><a class="dropdown-item" href="#">Graphic Design Projects</a></li>
-                    <li><a class="dropdown-item" href="#">Website Design</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
+            <div class="container-fluid ms-lg-4">
+              <img src="img\Logosinglecopy.png" class="d-block w-5" style="height:60px" alt="">
+              <a class="navbar-brand justify" href="#"></a>
+            
+              <button class="navbar-toggler me-lg-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end bg-dark text-light" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h1 class="offcanvas-title " id="offcanvasNavbarLabel">Menu</h1>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active text-light menutext" aria-current="page" href="index.html" style="font-size: 22px;">Home</a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Contact Me <Menu></Menu></a></li>
+                    <li class="nav-item mt-3">
+                      <a class="nav-link menutext" href="about.html" style="font-size: 22px;">About</a>
+                    </li>
+                    <li class="nav-item mt-3 dropdown">
+                      <a class="nav-link dropdown-toggle menutext" href="gallery.html" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 22px;">
+                        Gallery
+                      </a>
+                      <ul class="dropdown-menu menutext" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="gallery.html">Graphic Art Designs</a></li>
+                        <li><a class="dropdown-item" href="gallery.html">Contact Me</a></li></ul>
+                        
                   </ul>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+                  <form class="d-flex">
+                    <input class="form-control mt-3 me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
             </div>
-          </div>
+          </nav>
         </div>
-      </nav>
       <!-- Sticky navbar with Offcanvas body END -->
   
 
-      
+
+
+        <div class="video-background row">
+          <div class="col vid-col">
+            <div class="video-wrap" >
+              <video id="bgvid" autoplay loop muted playsinline source src="videos\pexels video.mp4" type="video/mp4" sizes=""></video>
+            </div>
+            <div class="caption d-block-flex text-center justify-content-center">
+              <h1>Portfolio</h1>
+              <h3>Jacqueline Martinez</h3>
+              <a class="btn btn-outline-light btn-lg" href="about.html">GET STARTED</a>
 
 
 
-
-
-
-
-<!-- Profile Picture START -->
-    <div class="text-center ms-5 d-flex justify-content-center">  
-      <!--Grid row-->     
-        <!--Grid column-->
-        <div class="col-md-6 mb-4">
-          <img class="rounded-circle z-depth-2 selfie p-4 mt-5" alt="100x100" src="img\D2479902-A194-4B0E-B29A-07BE53B7A4B3 (1).jpeg"
-            data-holder-rendered="true">
+          </div>
+          </div>
         </div>
-        <!--Grid column-->
-      <!--Grid row-->
-      </div>
-<!-- Profile Picture END -->
 
 
 
-<!-- Contact Form HEADER -->
-<h1 class="text-center text-light">Contact Me</h1>
-
-<!-- CONTACT FORM -->
-<form class="row">
-  <div class="col-6"> 
-  <div class="form-group d-flex right ">
-    <label for="text" class="col-4 col-form-label text-end text-light "></label> 
-    <div class="col-4 mx-3">
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="basic-addon1">@</span>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
+     
+      <!-- </div> -->
+      <!-- END JUMBOTRON -->
+      <!-- JUMBOTRON 2  -->
+      <div class="row jumbotron jumbotron2 bg-opacity-50">
+        <div class="col d-flex align-items-center text-center text-light jumbo2" >
       
-    </div>
-  </div>
-  <div class="form-group d-flex right">
-    <label for="text1" class="col-4 col-form-label text-end text-light">Email</label> 
-    <div class="col-4 mx-3">
-      <input id="text1" name="text1" placeholder="Type here..." type="text" class="form-control">
-    </div>
-  </div>
-  <div class="form-group d-flex right">
-    <label for="text2" class="col-4 col-form-label text-end text-light">Phone</label> 
-    <div class="col-4 mx-3">
-      <input id="text2" name="text2" placeholder="(***) ***-****" type="text" class="form-control">
-    </div>
-  </div>
-</div>
-<div class="col-6">
-  <div class="form-group row">
+          <div class="container p-4">
+            <h2></h2>
+            <h1></h1>
+            <p class="pb-5" style="font-size: 38px;">"Thinking about design is hard, but not thinking about it can be disastrous" - Ralph Caplan</p>
+            
+            <a href="about.html">
+              <button class="btn text-light border">Learn More</button>
+          </a>
+          </div>
+        </div>
+      </div>
+      <!-- END JUMBOTRON 2 -->
+
     
-    <div class="col-4">
-      <textarea id="textarea" name="textarea" cols="40" rows="4" class="form-control" aria-describedby="textareaHelpBlock"></textarea> 
-      <span id="textareaHelpBlock" class="form-text text-muted text-end text-light">Write a Message</span>
-    </div>
-    <label for="textarea" class="col-4 col-form-label text-start text-light">Message</label> 
-  </div> 
-   </div>
-   <div class="form-group row">
-    <div class="offset-4 col-4 text-center">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </div>
-</form>
-
-<!-- CONTACT FORM END -->
-
-
-
-
-  <footer>
-    <div class="container">
-      <div class="row">
         
-        <div class="col-lg-5 col-md-6">
-          <h3>Site Map</h3>
-          <ul class="list-unstyled three-column">
-            <li>Home</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Contact Me</li>
-           
-          </ul>
-          <ul class="list-unstyled socila-list">
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-            <li><img src="http://placehold.it/48x48" alt="" /></li>
-          </ul>
-        </div>
+        <div class="container-fluid containerfluidfooter">
+          <!-- Footer -->
+          <footer class="text-center text-white" style="background-color: #233c5d">
+            <!-- Grid container -->
+            <div class="container-fluid">
+              <!-- Section: Links -->
+              <section class="mt-5 ">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5" style="background-color: #233c5d">
+                  <!-- Grid column -->
+                  <div class="col-md-2" >
+                    <h6 class="text-uppercase font-weight-bold" >
+                      <a href="#!" class="text-white">About us</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
         
-
-        <!-- <div class="col-lg-4 col-md-6">
-          <h3>latest Articles</h3>
-          <div class="media">
-            <a href="#" class="pull-left">
-              <img src="http://placehold.it/64x64" alt="" class="media-object" />
-            </a>
-            <div class="media-body">
-              <h4 class="media-heading">Programming</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Products</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Awards</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Help</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+        
+                  <!-- Grid column -->
+                  <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                      <a href="#!" class="text-white">Contact</a>
+                    </h6>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+              </section>
+              <!-- Section: Links -->
+        
+              
+        
+         
+        
+              <!-- Section: Social -->
+              <section class="col-6 text-center mb-5 mt-5" style="background-color: #233c5d">
+                <a href="mailto:jacqueline.martinez6114@gmail.com" class="text-decoration-none text-white me-4">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a class="text-white me-4" href="https://twitter.com/?lang=en" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="tel:559-382-6610" class="text-white me-4">
+                  <i class="fas fa-headset"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a class="text-white me-4" href="https://www.linkedin.com/in/jacqueline-martinez-546208133/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="text-white me-4" href="https://github.com/jacquelinemartinez6114" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </section>
+              <!-- Section: Social -->
             </div>
-          </div>
-          
-          <div class="media">
-            <a href="#" class="pull-left">
-              <img src="http://placehold.it/64x64" alt="" class="media-object" />
-            </a>
-            <div class="media-body">
-              <h4 class="media-heading">Coding</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          
-          <div class="media">
-            <a href="#" class="pull-left">
-              <img src="http://placehold.it/64x64" alt="" class="media-object" />
-            </a>
-            <div class="media-body">
-              <h4 class="media-heading">Web Sesign</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          
-        </div> -->
+            <!-- Grid container -->
         
-        <div class="col-lg-4">
-          <h3>My Work</h3>
-          <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-          <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-          <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-          <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" />
-        </div>
+            <!-- Copyright -->
+            <div
+                 class="text-center p-3"
+                 style="background-color: rgba(0, 0, 0, 0.2)"
+                 >
+              © 2020 Copyright:
+              <a class="text-white" href="https://mdbootstrap.com/"
+                 >MDBootstrap.com</a
+                >
+          </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
         
-      </div>
-    </div>
-    <div class="copyright text-center text-light">
-      Copyright &copy; 2022 <span>Jacqueline Martinez</span>
-    </div>
-  </footer>
-
-  <!-- <footer class="footer d-flex justify-content-center align-items-center">
-
-    <div class="footer-left">
-
-      <img src="img\Logosinglecopy.png" class="logo2"> 
-
-      <p class="footer-links">
-        <a href="index.html">Home</a>
-        ·
-        <a href="about.html">About</a>
-        ·
-        <a href="portfolio.html">Portfolio</a>
-        ·
-        <a href="contact.html">Contact</a>
-      </p>
-
-      <p class="footer-company-name">Jacqueline Martinez © 2021</p>
-
-      <div class="footer-icons">
-
-        <a href="#"><i class="fa fa-facebook"></i></a>  
-
-        <a href="mailto:jacqueline.martinez6114@gmail.com"><img src><i class="fas fa-envelope"></i></a>
-                  
-                  <a href="tel:559-301-0882"><i class="fas fa-phone-square"></i>
-
-        <a href="https://www.linkedin.com/in/jacqueline-martinez-546208133/?midToken=AQFkPOQSkep-VA&midSig=3jYv95nLYIXW01&trk=eml-email_network_conversations_01-header-71-profile&trkEmail=eml-email_network_conversations_01-header-71-profile-null-91mz9i%7Ekx5jk5bz%7Euf-null-neptune%2Fprofile%7Evanity%2Eview"><i class="fa fa-linkedin"></i></a>
-
-        <a href="https://github.com/jacquelinemartinez6114"><i class="fa fa-github"></i></a>
-
-      </div>
-
-    </div>
-
-    <div class="footer align-items-center">
-
-      <p>Contact Me</p>
-
-      <form action="#" method="post">
-
-        <input type="text" name="email" placeholder="Email">
-        <textarea name="message" placeholder="Message"></textarea>
-        <button>Send</button>
-
-      </form>
-
-    </div>
-
-      </footer> -->
+        <!-- End of .container -->
 
      <!-- Optional JavaScript; choose one of the two! -->
 
